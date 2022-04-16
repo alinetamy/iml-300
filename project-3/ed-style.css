@@ -1,0 +1,266 @@
+body {
+    font-family: "Roboto Mono", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #f0f0f0;
+    color: #0f0f0f;
+    overflow-x: hidden
+}
+
+html {
+    font-size: 24px
+}
+
+hr {
+    background: #0f0f0f;
+    color: #0f0f0f;
+}
+
+h3 {
+    /*  font-family: "Work Sans", sans serif;*/
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h4 {
+    /*  font-family: "Work Sans", sans serif;*/
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content-about {
+    font-family: "Roboto Mono", monospace
+}
+
+
+
+.pages {
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.pages .ctn-page {
+    height: 100%;
+    position: absolute;
+    width: calc(100% - 60px);
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace
+}
+
+.pages .ctn-page:first-child {
+    background: #f0f0f0
+}
+
+.pages .ctn-page:nth-child(2) {
+    left: calc(100%/3);
+    background: #eb4646;
+    color: #0f0f0f
+}
+
+.pages .ctn-page:nth-child(3) {
+    left: calc(100%/3*2);
+    background: #0f0f0f;
+    color: #f0f0f0
+}
+
+/*myths page*/
+#myth-1 {
+    position: fixed;
+    padding: 20px;
+    left: 11%;
+    top: 35%;
+    transform: rotate(10deg);
+
+}
+
+#myth-2 {
+    position: fixed;
+    padding: 20px;
+    right: 20%;
+    top: 8%;
+    transform: rotate(-45deg);
+
+}
+
+#myth-3 {
+    position: fixed;
+    padding: 20px;
+    right: 8%;
+    top: 57%;
+    transform: rotate(10deg);
+
+}
+
+#myth-4 {
+    position: fixed;
+    padding: 20px;
+    left: 11%;
+    top: 60%;
+    transform: rotate(-10deg);
+
+}
+
+#myth-5 {
+    position: fixed;
+    padding: 20px;
+    left: 20%;
+    top: 10%;
+    transform: rotate(45deg);
+}
+
+#myth-6 {
+    position: fixed;
+    padding: 20px;
+    right: 9%;
+    top: 35%;
+    transform: rotate(-10deg);
+}
+
+#placeholder-myth1 {
+    position: fixed;
+    padding: 20px;
+    right: 38%;
+    top: 0%;
+    transform: rotate(90deg);
+    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    filter: drop-shadow(8px 8px 10px white);
+    border: 0px;
+
+}
+
+#placeholder-myth2 {
+    position: fixed;
+    padding: 20px;
+    right: 38%;
+    top: 97%;
+    transform: rotate(90deg);
+    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    filter: drop-shadow(8px 8px 10px white);
+    border: 0px;
+
+}
+
+#placeholder-myth3 {
+    position: fixed;
+    padding: 20px;
+    left: 20%;
+    top: 85%;
+    transform: rotate(135deg);
+    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    filter: drop-shadow(8px 8px 10px white);
+    border: 0px;
+
+}
+
+#placeholder-myth4 {
+    position: fixed;
+    padding: 20px;
+    right: 18%;
+    top: 84%;
+    transform: rotate(-135deg);
+    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    filter: drop-shadow(8px 8px 10px white);
+    border: 0px;
+
+}
+
+/*
+.truth-container-first {
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 6%;
+    display: none;
+    background-image: linear-gradient(#FFC700, #FF7A00);
+    color: #0f0f0f;
+    position: relative;
+    padding: 50px;
+    width: 18em;
+    height: 18em;
+    line-height: 1.4em;
+
+
+}
+*/
+.truth-container {
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 6%;
+    display: none;
+    background-image: linear-gradient(#FFC700, #FF7A00);
+    color: #0f0f0f;
+    position: relative;
+    padding: 50px;
+    width: 18em;
+    height: 18em;
+    line-height: 1.4em;
+
+
+}
+
+
+.myths {
+    background: #eb4646;
+    color: #0f0f0f;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 5em;
+    padding-left: 20px
+}
+
+.myth-container {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    line-height: 1.4em;
+    margin: 40px auto;
+    border: 2px solid #0f0f0f;
+    border-radius: 50%;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: large;
+    background-color: #eb4646;
+    /*        filter: drop-shadow(8px 8px 10px white);*/
+}
+
+/*resources page*/
+.resources {
+    background: #0f0f0f;
+    color: #f0f0f0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 5em;
+}
+
+.content-resources {
+    font-family: "Roboto Mono", monospace;
+    text-align: right;
+    padding-right: 20px
+}
+
+.resource ul {
+    list-style-type: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 4em;
+}
+
+.resource li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    display: block;
+}
+
+.resource li a:hover {
+    color: #eb4646;
+    filter: drop-shadow(16px 16px 10px white);
+}
