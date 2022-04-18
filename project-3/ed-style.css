@@ -1,37 +1,36 @@
+@font-face {
+    font-family: 'Grotesk-Regular';
+    src: url('assets/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
 body {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Grotesk-Regular";
     font-style: normal;
     font-weight: 400;
     background: #f0f0f0;
     color: #0f0f0f;
     overflow-x: hidden
 }
-
+a {
+    text-decoration: none;
+}
 html {
     font-size: 24px
 }
 
-hr {
-    background: #0f0f0f;
-    color: #0f0f0f;
-}
-
 h3 {
-    /*  font-family: "Work Sans", sans serif;*/
     font-size: 18px;
     font-weight: 600;
+    font-family: "Grotesk-Regular";
+
 }
 
 h4 {
-    /*  font-family: "Work Sans", sans serif;*/
     font-size: 16px;
     font-weight: 400;
-}
+    font-family: "Grotesk-Regular";
 
-.content-about {
-    font-family: "Roboto Mono", monospace
 }
-
 
 
 .pages {
@@ -39,7 +38,7 @@ h4 {
     top: 0;
     left: 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 .pages .ctn-page {
@@ -47,7 +46,7 @@ h4 {
     position: absolute;
     width: calc(100% - 60px);
     padding-left: 20px;
-    font-family: "Roboto Mono", monospace
+    font-family: "Grotesk-Regular"
 }
 
 .pages .ctn-page:first-child {
@@ -236,28 +235,32 @@ h4 {
     top: 0;
     left: 0;
     width: 100%;
-    position: fixed;
-    padding-bottom: 5em;
+    position: absolute;
+    padding-bottom: 10em;
+    bottom: 0p;
 }
 
 .content-resources {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Grotesk-Regular";
     text-align: right;
-    padding-right: 20px
+    padding-right: 80px;
+    position: relative
 }
 
 .resource ul {
     list-style-type: none;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Grotesk-Regular";
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 4em;
+    position: relative
 }
 
 .resource li a {
     color: #f0f0f0;
     text-decoration: none;
     display: block;
+    position: relative
 }
 
 .resource li a:hover {
