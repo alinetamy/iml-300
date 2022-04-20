@@ -35,4 +35,21 @@ $(document).ready(function () {
         $("#truth-6").toggle(),
         $("#truth-2, #truth-3, #truth-4, #truth-1, #truth-5").hide();
     });
+    
+    $('.menu').hover(function () {
+        $('.menu').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
+     $('.menu2').hover(function () {
+        $('.menu2').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
+      $('.menu3').hover(function () {
+        $('.menu3').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
+    $('.menu4').hover(function () {
+        $('.menu4').toggleClass('open');
+        $('.menu-bg').toggleClass('cover');
+    });
 });
