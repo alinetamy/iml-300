@@ -13,38 +13,38 @@ $(document).ready(function () {
 
     $("#myth-2").click(function () {
         $("#truth-2").toggle(),
-        $("#truth-1, #truth-3, #truth-4, #truth-5, #truth-6").hide();
+            $("#truth-1, #truth-3, #truth-4, #truth-5, #truth-6").hide();
     });
 
     $("#myth-3").click(function () {
         $("#truth-3").toggle(),
-        $("#truth-2, #truth-1, #truth-4, #truth-5, #truth-6").hide();
+            $("#truth-2, #truth-1, #truth-4, #truth-5, #truth-6").hide();
     });
 
     $("#myth-4").click(function () {
         $("#truth-4").toggle(),
-        $("#truth-2, #truth-3, #truth-1, #truth-5, #truth-6").hide();
+            $("#truth-2, #truth-3, #truth-1, #truth-5, #truth-6").hide();
     });
 
     $("#myth-5").click(function () {
         $("#truth-5").toggle(),
-        $("#truth-2, #truth-3, #truth-4, #truth-1, #truth-6").hide();
+            $("#truth-2, #truth-3, #truth-4, #truth-1, #truth-6").hide();
     });
 
     $("#myth-6").click(function () {
         $("#truth-6").toggle(),
-        $("#truth-2, #truth-3, #truth-4, #truth-1, #truth-5").hide();
+            $("#truth-2, #truth-3, #truth-4, #truth-1, #truth-5").hide();
     });
-    
+
     $('.menu').hover(function () {
         $('.menu').toggleClass('open');
         $('.menu-bg').toggleClass('cover');
     });
-     $('.menu2').hover(function () {
+    $('.menu2').hover(function () {
         $('.menu2').toggleClass('open');
         $('.menu-bg').toggleClass('cover');
     });
-      $('.menu3').hover(function () {
+    $('.menu3').hover(function () {
         $('.menu3').toggleClass('open');
         $('.menu-bg').toggleClass('cover');
     });
