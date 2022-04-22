@@ -52,4 +52,26 @@ $(document).ready(function () {
         $('.menu4').toggleClass('open');
         $('.menu-bg').toggleClass('cover');
     });
+    $('.flower').mouseenter(function () {
+        $(this).animate({
+            opacity: '1.0',
+        });
+    });
+    $('.flower').mouseleave(function () {
+        $(this).animate({
+            opacity: '0.5',
+        });
+    });
+    $('.caption').draggable({
+        containment: ".video",
+    });
+    $('.button').click(function () {
+        $('.video-container').css('display', 'block');
+    });
+
+    $('.button').hover(function () {
+        $(this).css('background-color', 'white')
+    }, function () {
+        $(this).css('background-color', '#eb4646');
+    });
 });

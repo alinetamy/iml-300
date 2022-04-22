@@ -43,6 +43,55 @@ h4 {
 
 }
 
+/*disclaimer*/
+.disclaimer {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+
+}
+.button {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    margin: auto;
+    font-size: 14px
+}
+
+/*video*/
+.video-container {
+    display: none
+}
+
+.flower {
+    width: 30%;
+    position: absolute;
+    top: 77%;
+    left: 500px;
+    opacity: 0.5
+}
+
+.video {
+    position: absolute;
+    left: 100px
+}
+
+.caption {
+    position: absolute;
+    width: 400px;
+    right: 40px;
+    height: 65%;
+    overflow: scroll;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    line-height: 1.5em;
+    border: none;
+    font-size: 16px
+}
+
 /*nav*/
 nav {
     position: absolute;
@@ -182,16 +231,19 @@ nav {
     height: 100%;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
     position: absolute;
+
 }
 
-.pages .ctn-page {
-    height: 100%;
+.ctn-page {
+    height: 21%;
     position: absolute;
     width: calc(100% - 60px);
     padding-left: 20px;
-    font-family: "Grotesk-Regular"
+    font-family: "Grotesk-Regular";
+    padding-top: 700px;
 }
 
 .pages .ctn-page:first-child {
@@ -201,7 +253,8 @@ nav {
 .pages .ctn-page:nth-child(2) {
     left: calc(100%/3);
     background: #eb4646;
-    color: #0f0f0f
+    color: #0f0f0f;
+
 }
 
 .pages .ctn-page:nth-child(3) {
