@@ -52,12 +52,15 @@ h4 {
     width: 50%;
 
 }
+
 .button {
     padding: 10px;
     border: 1px solid black;
     width: 100px;
     margin: auto;
-    font-size: 14px
+    font-size: 14px;
+    	cursor: pointer;
+
 }
 
 /*video*/
@@ -68,9 +71,11 @@ h4 {
 .flower {
     width: 30%;
     position: absolute;
-    top: 77%;
-    left: 500px;
-    opacity: 0.5
+    top: 79%;
+    left: 35%;
+    opacity: 0.5;
+    margin: auto;
+
 }
 
 .video {
@@ -263,6 +268,27 @@ nav {
     color: #f0f0f0
 }
 
+/*about page accordion*/
+.item { 
+	cursor: pointer;
+}
+
+.heading h2::after{
+	content: '+';
+	display: inline-block;
+	width: 30px;
+}
+
+.details{
+	display: none;
+}
+
+.active .heading h2::after{
+	content: '-';
+}
+.active .details{
+	display:block;
+}
 /*myths page*/
 #myth-1 {
     position: fixed;
@@ -322,7 +348,7 @@ nav {
     right: 38%;
     top: 0%;
     transform: rotate(90deg);
-    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    background-color: #FFFFFF;
     filter: drop-shadow(8px 8px 10px white);
     border: 0px;
 
@@ -334,7 +360,7 @@ nav {
     right: 38%;
     top: 97%;
     transform: rotate(90deg);
-    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    background-color: #FFFFFF;
     filter: drop-shadow(8px 8px 10px white);
     border: 0px;
 
@@ -346,7 +372,7 @@ nav {
     left: 20%;
     top: 85%;
     transform: rotate(135deg);
-    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    background-color: #FFFFFF;
     filter: drop-shadow(8px 8px 10px white);
     border: 0px;
 
@@ -358,7 +384,7 @@ nav {
     right: 18%;
     top: 84%;
     transform: rotate(-135deg);
-    background-image: linear-gradient(#FFC3F2, #FFFFFF);
+    background-color: #FFFFFF;
     filter: drop-shadow(8px 8px 10px white);
     border: 0px;
 
@@ -370,8 +396,9 @@ nav {
     margin-top: 5%;
     margin-left: 28%;
     display: none;
-    background-image: linear-gradient(#FFC700, #FF7A00);
-    color: #0f0f0f;
+    background-color: black;
+/*    background-image: linear-gradient(#FFC700, #FF7A00);*/
+    color: #FFFFFF;
     position: absolute;
     padding: 50px;
     width: 18em;
@@ -380,7 +407,6 @@ nav {
 
 
 }
-
 
 .myths {
     background: #eb4646;
@@ -408,7 +434,9 @@ nav {
     background-color: #eb4646;
     /*        filter: drop-shadow(8px 8px 10px white);*/
 }
-
+.background {
+    position: fixed
+}
 /*resources page*/
 .resources {
     background: #0f0f0f;
@@ -418,8 +446,8 @@ nav {
     left: 0;
     width: 100%;
     position: absolute;
-    padding-bottom: 10em;
-    bottom: 0p;
+    padding-bottom: 13em;
+    bottom: 0;
 }
 
 .content-resources {

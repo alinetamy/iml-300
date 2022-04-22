@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".myth-container").click(function () {
-        $(this).css("background-image", "linear-gradient(#FFC3F2, #FFFFFF)"),
+        $(this).css("background-color", "#FFFFFF"),
             $(this).css("filter", "drop-shadow(8px 8px 10px white)"),
             $(this).css("border", "0px");
         //            $(".truth-container-first").hide()
@@ -73,5 +73,8 @@ $(document).ready(function () {
         $(this).css('background-color', 'white')
     }, function () {
         $(this).css('background-color', '#eb4646');
+    });
+     $('.item').click(function () {
+        $(this).toggleClass('active');
     });
 });
