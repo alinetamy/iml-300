@@ -229,7 +229,11 @@ nav {
     padding-left: 12px;
     padding-right: 100px;
 }
-
+.source {
+    text-align: right;
+    font-size: 12px;
+    padding-right: 80px
+}
 /*home page*/
 
 .pages {

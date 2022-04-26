@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Grotesk-Regular';
+    src: url('assets/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    font-family: 'Grotesk-Regular';
+    padding: 40px;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+    padding-bottom: 20px
+}
+.about {
+    padding-right: 180px
+}
+
+.presentation {
+    padding-top: 20px;
+    padding-right: 180px
+}
+
+.projects {
+    padding-top: 20px;
+    padding-right: 350px
+}
+
+.exercises {
+    padding-top: 20px;
+    padding-right: 350px
+}
+
+.thoughts {
+    padding-top: 20px;
+    padding-right: 350px
+}
